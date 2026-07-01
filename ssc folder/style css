@@ -1,0 +1,50 @@
+/* تنسيق القسم الترحيبي بالكامل بخلفية زرقاء فاتحة */
+.welcome-section {
+    background-color: #d1e2f3; 
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* تنسيق العنوان الكبير باللون الأحمر/البرتقالي الجذاب */
+.main-title {
+    color: #e05a47; 
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* ترتيب العناصر (الفيديوهات والنص) جنباً إلى جنب كأعمدة */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* لجعل التصميم متناسقاً على الشاشات الصغيرة أيضاً */
+}
+
+/* تنسيق صندوق الميديا (الفيديوهات) على اليسار */
+.media-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.media-box video {
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* تنسيق صندوق النص الترحيبي باللون الأبيض */
+.text-box {
+    background-color: rgba(255, 255, 255, 0.2); /* خلفية شبه شفافة لتوضيح النص */
+    padding: 20px;
+    border-radius: 8px;
+    color: #333333; /* لون نص داكن ليسهل قراءته فوق الخلفية الفاتحة */
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 500px;
+}
